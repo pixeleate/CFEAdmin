@@ -1,0 +1,423 @@
+body {
+  /*padding-top: 120px;
+  padding-bottom: 40px;*/
+  background-color: #eee;
+
+}
+
+.btn 
+{
+ outline:0;
+ border:none;
+ border-top:none;
+ border-bottom:none;
+ border-left:none;
+ border-right:none;
+ box-shadow:inset 0px -3px rgba(0,0,0,0.15);
+}
+.btn:focus
+{
+ outline:0;
+ -webkit-outline:0;
+ -moz-outline:0;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #009045;
+/* border-color: #357ebd; */
+}
+
+.btn-primary:hover {
+color: #fff;
+background-color: #30a95b;
+/* border-color: #357ebd; */
+}
+
+.fullscreen_bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  /*background-image: url('http://cleancanvas.herokuapp.com/img/backgrounds/color-splash.jpg');*/
+  background-repeat:repeat;
+}
+.form-signin {
+  max-width: 280px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top:50px;
+  background: white;
+}
+.form-signin .form-signin-heading, .form-signin {
+  margin-bottom: 10px;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: rgba(0,0,0,0.08);
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: rgba(0,0,0,0.08);
+}
+.form-signin-heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: #009045;
+  font-size: 1.5em;
+}
+
+/* Dashboard Custom Styles */
+
+#logo{
+  text-align: center;
+}
+
+#logo_dash img{
+  height: 110px;
+}
+
+a#btn_logout{
+  display: inline-block;
+  background: #343434;
+  padding: 10px;
+  line-height: 10px;
+  vertical-align: middle;
+  /*margin-top: 7px;*/
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid #343434;
+}
+
+a#btn_logout:hover {
+  background: #009045;
+  border-bottom: 2px solid #00793A;
+}
+
+a#btn_logout:active {
+  background: #009045;
+  border-bottom: 2px solid #009045;
+}
+
+#ubication{
+  text-align: right;
+}
+
+#header .container{
+  background: white;
+  border-bottom: solid 2px rgba(128, 128, 128, 0.32);
+}
+
+header{
+  background: white;
+  border-bottom: 2px solid lightgrey;
+}
+
+header h2{
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.title_page {
+  margin-top: 31px;
+}
+
+.title_page h2 {
+margin: 0;
+}
+
+div#user{
+  display: inline-block;
+  margin-top: 7px;
+  line-height: 32px;
+  height: 32px;
+}
+
+span#label_username{
+  display: inline-block;
+  line-height: 32px;
+  height: 32px;
+  margin-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+span#username{
+  display: inline-block;
+  line-height: 32px;
+  height: 32px;
+  margin-right: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.login-form{
+  
+  background: white;
+  margin-top: 50px;
+  padding-bottom: 25px;
+
+}
+
+nav.container{
+  background: white;
+  margin-top: 20px;
+  border-bottom: solid 2px rgba(128, 128, 128, 0.32);
+}
+
+nav div {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+nav div a {
+  color: #343434;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+}
+
+nav div a:hover {
+  color: #009045;
+  text-decoration: none;
+}
+
+nav div:first-child{
+  border-right: 1px solid grey;
+}
+
+.card {
+background: white;
+text-align: center;
+}
+
+.title-card {
+color: white;
+background: #009045;
+padding: 7px 0;
+font-weight: 500;
+}
+
+#contadores, #charts, #fallas{
+  margin-top: 20px;
+}
+
+.new-fails, .new-issues {
+width: 50%;
+float: left;
+}
+
+span.num {
+font-family: 'Cinzel';
+font-size: 3.5em;
+margin-top: 15px;
+}
+
+.card span {
+display: block;
+}
+
+.foot-card {
+font-weight: bold;
+clear: both;
+padding: 10px;
+font-size: 1em;
+}
+
+span.text {
+font-size: 1em;
+font-weight: 200;
+}
+
+.new-issues span.num {
+border-left: 1px solid;
+color: #009045;
+}
+
+/* Styles Charts */
+
+#container1, #container2{
+  width: 90%;
+  height: 220px;
+  margin: 0 auto;
+}
+
+.chart{
+  background: white;
+}
+
+.chart-title{
+  background: #343434;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 7px 0;
+}
+
+.search-form{
+  margin-top: 24px;
+  text-align: center;
+  border-top: 1px solid rgba(52, 52, 52, 0.18);;
+  padding-top: 11px;
+}
+
+.search-form-folio{
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 11px;
+}
+
+#search-title{
+  display: block;
+  font-family: 'Cinzel';
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+#search-field{
+  margin: 0;
+  line-height: 2.2em;
+  width: 75%;
+}
+
+#btn-search{
+  background: black;
+  -appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  color: white;
+  padding: 7px 21px;
+  margin: 0;
+}
+
+.panel, .panel-heading, .panel .panel-group{
+  border-radius: 0px !important;
+}
+
+.panel-heading{
+  background: #343434 !important;
+  color: white !important;
+}
+
+.sort div{
+  display: inline-block;
+  margin: 17px 10px;
+}
+
+.sort form{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.radio input{
+  height: 1.3em;
+}
+
+.radio+.radio, .checkbox+.checkbox {
+margin-top: 0px !important;
+}
+
+.sort #mapa{
+  background: #009045;
+  border: none;
+  color: white;
+  padding: 10px 70px;
+  font-family: 'Cinzel', serif;
+  /* text-transform: uppercase; */
+  font-size: 16px;
+  /* font-weight: inherit; */
+  text-align: center;
+  margin: 15px auto;
+  display: block;
+}
+
+.sort h2{
+  text-align: center;
+  font-family: 'Cinzel';
+  margin-top: 15px;
+}
+
+.foot{
+  text-align: center;
+  font-family: 'Cinzel';
+  border-top: 1px solid #C0C0C0;
+}
+
+.gmap3 {
+  margin: 20px auto;
+  height: 500px;
+}
+
+#map .container{
+  background: white;
+}
+
+#title-map{
+  text-align: center;
+  margin-top: 20px;
+  font-family: Cinzel;
+  font-size: 1.5em;
+}
+
+#navigation .active{
+  box-shadow: inset 0 -5px #009045;
+}
+
+.panel-body div {
+width: 50%;
+display: inline-block;
+/* margin: 0; */
+}
+
+.panel-body div.desc {
+display: block;
+/* margin: 0; */
+}
+
+.panel-body a{
+  display: inline;
+  float: right;
+  color: white;
+}
+#change-status{
+background: #009045;
+border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
